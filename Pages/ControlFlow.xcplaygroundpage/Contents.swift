@@ -58,6 +58,7 @@ case "cucumber", "watercress":
 case let x where x.hasSuffix("pepper"):
     print("Is it a spicy \(x)?")
 // 默认
+// default 不是必须的，取决于前面的匹配是否覆盖了所有可能的情况
 default:
     print("Everything tastes good in soup.")
 }
